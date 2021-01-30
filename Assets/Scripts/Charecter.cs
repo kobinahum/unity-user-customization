@@ -60,6 +60,7 @@ public class Charecter : MonoBehaviour
                 CurrentOutfit = item;
                 break;
         }
+        item.ItemBought();
         
     }
     public void Clear()

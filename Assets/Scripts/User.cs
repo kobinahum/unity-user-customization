@@ -54,7 +54,6 @@ public class User : MonoBehaviour
             {
                 userData.Coins -= item.Price;
                 userStuffs.Add(item.Name, item);
-                item.ItemBought();
             }
             ApplyItem(item);
             onUserDataChanged?.Invoke(userData);

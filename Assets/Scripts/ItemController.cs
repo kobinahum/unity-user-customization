@@ -53,7 +53,8 @@ public class ItemController : MonoBehaviour
                 Popup.I.SetPopup("Oh no! ", "You need to level up to accuire this item!");
                 break;
         }
-        
+        item.ItemBought();
+
     }
 
     public Item GetItem() { return this.item; }
