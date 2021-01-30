@@ -11,11 +11,6 @@ public class WelcomeScreen : MonoBehaviour
         UI.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnInputChanged(string name)
     {

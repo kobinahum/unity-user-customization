@@ -19,9 +19,6 @@ public class Item
     public int MinLevel;
 	public bool CurrentlyUsed;
 
-	//public delegate void OnItemBought(Item item);
-	//public static event OnItemBought onItemBought;
-
     public Item(string name, Section section, int price, int minLevel,bool currentlyUsed)
     {
         this.Name = name;
@@ -93,12 +90,6 @@ public class ItemsData
         items.Add(new Item("outfit_10", Section.OUTFIT, 1000, 0,false));
     }
     
- //   public void ItemBought(Item item)
-	//{
- //       int index = items.FindIndex(element => element.Name == item.Name);
- //       //ite    
-
- //   }
     public Item[] GetItemsByType(Section section) {
 
         return items.FindAll(item => item.Section ==section).ToArray();

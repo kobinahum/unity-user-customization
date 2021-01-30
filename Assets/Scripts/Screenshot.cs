@@ -12,10 +12,6 @@ public class Screenshot : MonoBehaviour
     public int rectX, RectY;
     public ScreenshotViewer screenshotViewer;
 
-    // configure with raw, jpg, png, or ppm (simple raw format)
-    //public enum Format { RAW, JPG, PNG, PPM };
-    //public Format format = Format.JPG;
-
     // folder to write output (defaults to data path)
     private string outputFolder;
     private string specificFileName;

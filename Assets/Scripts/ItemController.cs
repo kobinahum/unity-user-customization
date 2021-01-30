@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ItemController : MonoBehaviour
 {
     public Text PriceText, LevelText;
-    //public Sprite Icon;
     public GameObject Lock;
     Item item;
 

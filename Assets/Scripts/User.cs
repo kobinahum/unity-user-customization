@@ -101,5 +101,4 @@ public class User : MonoBehaviour
     }
 
     public string[] GetUserStuffs() { return userStuffs.Keys.ToArray(); }
-    //public string[] GetCurrentItems() { return charecter.GetCurrentItems(); }
 }

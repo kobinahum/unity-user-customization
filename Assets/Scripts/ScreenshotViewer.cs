@@ -15,12 +15,6 @@ public class ScreenshotViewer : MonoBehaviour
         Close();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ShowImage()
     {
         if(lastImagePath == null)

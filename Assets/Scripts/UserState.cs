@@ -13,12 +13,6 @@ public class UserState : MonoBehaviour
         User.onUserDataChanged+=UpdateUserState;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetUserState(string name,int coins, int level)
     {
         NAME.text = name;

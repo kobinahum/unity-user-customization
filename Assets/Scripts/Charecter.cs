@@ -103,13 +103,4 @@ public class Charecter : MonoBehaviour
         
         
     }
-
-    //public string[] GetCurrentItems()
-    //{
-    //    List<string> items = new List<string>();
-    //    items.Add(CurrentEyes.Name);
-    //    items.Add(CurrentMouth.Name);
-    //    items.Add(CurrentOutfit.Name);
-    //    return items.ToArray();
-    //}
 }

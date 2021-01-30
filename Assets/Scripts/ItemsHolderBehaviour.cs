@@ -34,7 +34,6 @@ public class ItemsHolderBehaviour : MonoBehaviour
             rt.localPosition = new Vector3(rt.localPosition.x, rt.localPosition.y, 0);
             item.GetComponent<ItemController>().SetItem(items[i], IconLoader(items[i]));
             currentItems.Add(item);
-            //items[i].onItemBought += ItemsData.ItemBought(items[i]);
         }
     }
 
@@ -49,8 +48,6 @@ public class ItemsHolderBehaviour : MonoBehaviour
     {
         currentItems.ForEach(element =>
         {
-            //Item item = element.GetComponent<ItemController>().GetItem();
-            //item.onItemBought -= ItemsData.ItemBought(item);
             Destroy(element);
         });
         currentItems.Clear();
